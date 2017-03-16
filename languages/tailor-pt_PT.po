@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tailor 1.7.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tailor\n"
-"POT-Creation-Date: 2017-02-13 16:57+0000\n"
-"PO-Revision-Date: 2017-02-18 11:57+0000\n"
+"POT-Creation-Date: 2017-03-16 12:10+0000\n"
+"PO-Revision-Date: 2017-03-16 12:12+0000\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: tailor.php\n"
@@ -38,12 +38,7 @@ msgstr "Definições"
 msgid "Tailor"
 msgstr "Tailor"
 
-#: includes/admin/class-settings.php:97
-#: partials/admin/html/page-settings.php:19
-msgid "Tailor settings"
-msgstr "Definições do Tailor"
-
-#: includes/admin/class-settings.php:114 includes/class-panels.php:118
+#: includes/admin/class-settings.php:91 includes/class-panels.php:118
 #: includes/elements/class-box.php:32 includes/elements/class-button.php:31
 #: includes/elements/class-card.php:31
 #: includes/elements/class-carousel-item.php:31
@@ -66,15 +61,15 @@ msgstr "Definições do Tailor"
 msgid "General"
 msgstr "Geral"
 
-#: includes/admin/class-settings.php:120
+#: includes/admin/class-settings.php:97
 msgid "Enabled post types"
 msgstr "Tipos de conteúdo permitidos"
 
-#: includes/admin/class-settings.php:137
+#: includes/admin/class-settings.php:114
 msgid "Restricted user roles"
 msgstr "Papéis de utilizador restritos"
 
-#: includes/admin/class-settings.php:146
+#: includes/admin/class-settings.php:123
 msgid ""
 "By default, user roles that can manage options or edit posts can Tailor "
 "posts."
@@ -82,23 +77,23 @@ msgstr ""
 "Por omissão, os papéis de utilizador que podem gerir opções ou editar "
 "conteúdos, poderão editar conteúdos com o Tailor."
 
-#: includes/admin/class-settings.php:156 includes/class-panels.php:96
+#: includes/admin/class-settings.php:133 includes/class-panels.php:96
 msgid "Elements"
 msgstr "Elementos"
 
-#: includes/admin/class-settings.php:162
+#: includes/admin/class-settings.php:139
 msgid "Descriptions"
 msgstr "Descrições"
 
-#: includes/admin/class-settings.php:174
+#: includes/admin/class-settings.php:151
 msgid "Show element descriptions in the Elements list?"
 msgstr "Mostrar descrições dos elementos na lista de elementos?"
 
-#: includes/admin/class-settings.php:180
+#: includes/admin/class-settings.php:157
 msgid "Inactive elements"
 msgstr "Elementos inactivos"
 
-#: includes/admin/class-settings.php:189
+#: includes/admin/class-settings.php:166
 msgid ""
 "Inactive elements are those that depend on a third-party plugin to work (e."
 "g., Contact Form 7)."
@@ -106,82 +101,88 @@ msgstr ""
 "Os elementos inactivos são os que dependem de um plugin de terceiros para "
 "funcionar (p.ex. Contact Form 7)."
 
-#: includes/admin/class-settings.php:193
+#: includes/admin/class-settings.php:170
 msgid "Show inactive elements in the Elements list?"
 msgstr "Mostrar elementos inactivos na lista de elementos?"
 
-#: includes/admin/class-settings.php:199
+#: includes/admin/class-settings.php:176
 msgid "Content placeholder"
 msgstr "Conteúdo predefinido"
 
-#: includes/admin/class-settings.php:217
+#: includes/admin/class-settings.php:187
+#: includes/shortcodes/shortcode-content.php:42
+msgid "This is placeholder text which you can replace by editing this element."
+msgstr ""
+"Este é o texto predefinido que pode substituir ao editar este elemento."
+
+#: includes/admin/class-settings.php:194
 msgid "Features"
 msgstr "Funcionalidades"
 
-#: includes/admin/class-settings.php:223 includes/class-elements.php:268
+#: includes/admin/class-settings.php:200 includes/class-elements.php:267
 msgid "Widgets"
 msgstr "Widgets"
 
-#: includes/admin/class-settings.php:235
+#: includes/admin/class-settings.php:212
 msgid "Enable WordPress and third-party widgets?"
 msgstr "Activar widgets do WordPress e de terceiros?"
 
-#: includes/admin/class-settings.php:241
+#: includes/admin/class-settings.php:218
 msgid "REST API"
 msgstr "REST API"
 
-#: includes/admin/class-settings.php:253
+#: includes/admin/class-settings.php:230
 msgid "Enable the Tailor REST API?"
 msgstr "Activar a REST API do Tailor?"
 
-#: includes/admin/class-settings.php:259 includes/class-panels.php:139
+#: includes/admin/class-settings.php:236 includes/class-panels.php:139
 msgid "Custom CSS"
 msgstr "CSS personalizado"
 
-#: includes/admin/class-settings.php:271
+#: includes/admin/class-settings.php:248
 msgid "Hide the custom CSS editor?"
 msgstr "Esconder o editor de CSS personalizado?"
 
-#: includes/admin/class-settings.php:277 includes/class-panels.php:152
+#: includes/admin/class-settings.php:254 includes/class-panels.php:152
 msgid "Custom JavaScript"
 msgstr "JavaScript personalizado"
 
-#: includes/admin/class-settings.php:289
+#: includes/admin/class-settings.php:266
 msgid "Hide the custom JavaScript editor?"
 msgstr "Esconder o editor de JavaScript personalizado?"
 
-#: includes/admin/class-settings.php:295
+#: includes/admin/class-settings.php:272
 msgid "Styles and scripts"
 msgstr "Estilos e scripts"
 
-#: includes/admin/class-settings.php:307
+#: includes/admin/class-settings.php:284
 msgid "Load CSS and JavaScript on pages that have not been Tailored?"
 msgstr ""
 "Carregar CSS e JavaScript em páginas que não foram editadas com o Tailor?"
 
-#: includes/admin/class-settings.php:313
+#: includes/admin/class-settings.php:290
 msgid "Google Maps API key"
 msgstr "Chave de API do Google Maps"
 
-#: includes/admin/class-settings.php:323
+#: includes/admin/class-settings.php:300
 #, php-format
 msgid "%1$sLearn more%2$s about creating your own Google Maps API key"
 msgstr ""
 "%1$sSaiba mais%2$s sobre como criar a sua própria chave de API do Google Maps"
 
-#: includes/admin/class-settings.php:333
+#: includes/admin/class-settings.php:310
 msgid "Advanced settings"
 msgstr "Definições avançadas"
 
-#: includes/admin/class-settings.php:345
+#: includes/admin/class-settings.php:322
 msgid "Hide the Attributes panel when editing elements?"
 msgstr "Esconder o painel de atributos ao editar elementos?"
 
-#: includes/admin/class-settings.php:351
+#: includes/admin/class-settings.php:328
 msgid "Icon kits"
 msgstr "Kits de ícones"
 
-#: includes/admin/class-settings.php:361
+#: includes/admin/class-settings.php:338
 #, php-format
 msgid ""
 "Select an existing icon kit from your Media Library or %1$screate%2$s and "
@@ -190,7 +191,7 @@ msgstr ""
 "Seleccione um kit de ícones da sua biblioteca multimédia ou %1$scrie%2$s e "
 "carregue o ficheiro %3$s.zip%4$s correspondente."
 
-#: includes/admin/class-settings.php:468
+#: includes/admin/class-settings.php:445
 msgid "Select kit"
 msgstr "Seleccionar kit"
 
@@ -285,203 +286,199 @@ msgstr ""
 "O Tailor requer pelo menos a versão 4.3 do WordPress. Está a utilizar a "
 "versão %s. Por favor actualize e tente de novo."
 
-#: includes/class-elements.php:113 includes/elements/class-gallery.php:83
+#: includes/class-elements.php:112 includes/elements/class-gallery.php:83
 #: includes/elements/class-posts.php:91
 msgid "Carousel"
 msgstr "Carrossel"
 
-#: includes/class-elements.php:114
+#: includes/class-elements.php:113
 msgid "Display content in a carousel."
 msgstr "Mostra conteúdo num carrossel."
 
-#: includes/class-elements.php:121
+#: includes/class-elements.php:120
 msgid "Carousel item"
 msgstr "Item de carrossel"
 
-#: includes/class-elements.php:126 includes/elements/class-gallery.php:82
+#: includes/class-elements.php:125 includes/elements/class-gallery.php:82
 #: includes/elements/class-posts.php:90
 msgid "Grid"
 msgstr "Grelha"
 
-#: includes/class-elements.php:127
+#: includes/class-elements.php:126
 msgid "Display content in a grid."
 msgstr "Mostra conteúdo numa grelha."
 
-#: includes/class-elements.php:133
+#: includes/class-elements.php:132
 msgid "Grid item"
 msgstr "Item de grelha"
 
-#: includes/class-elements.php:138 includes/elements/class-gallery.php:81
+#: includes/class-elements.php:137 includes/elements/class-gallery.php:81
 #: includes/elements/class-posts.php:89
 msgid "List"
 msgstr "Lista"
 
-#: includes/class-elements.php:140
+#: includes/class-elements.php:139
 msgid "Display content in list items."
 msgstr "Mostra conteúdo numa lista de itens."
 
-#: includes/class-elements.php:145
+#: includes/class-elements.php:144
 msgid "List item"
 msgstr "Item de lista"
 
-#: includes/class-elements.php:151
+#: includes/class-elements.php:150
 msgid "Map"
 msgstr "Mapa"
 
-#: includes/class-elements.php:152
+#: includes/class-elements.php:151
 msgid "A Google map."
 msgstr "Um mapa do Google."
 
-#: includes/class-elements.php:158
+#: includes/class-elements.php:157
 msgid "Map marker"
 msgstr "Marcador do mapa"
 
-#: includes/class-elements.php:164
+#: includes/class-elements.php:163
 msgid "Row"
 msgstr "Linha"
 
-#: includes/class-elements.php:170
+#: includes/class-elements.php:169
 msgid "Column"
 msgstr "Coluna"
 
-#: includes/class-elements.php:175
+#: includes/class-elements.php:174
 msgid "Tabs"
 msgstr "Separadores"
 
-#: includes/class-elements.php:176
+#: includes/class-elements.php:175
 msgid "Display content in tabs."
 msgstr "Mostra conteúdo em separadores."
 
-#: includes/class-elements.php:183 includes/shortcodes/shortcode-tabs.php:141
+#: includes/class-elements.php:182 includes/shortcodes/shortcode-tabs.php:141
 msgid "Tab"
 msgstr "Separador"
 
-#: includes/class-elements.php:188
+#: includes/class-elements.php:187
 msgid "Toggles"
 msgstr "Mostrar/esconder"
 
-#: includes/class-elements.php:189
+#: includes/class-elements.php:188
 msgid "Display content in toggles."
 msgstr "Mostra/esconde conteúdo."
 
-#: includes/class-elements.php:195
+#: includes/class-elements.php:194
 msgid "Toggle"
 msgstr "Item a mostrar/esconder"
 
-#: includes/class-elements.php:207
+#: includes/class-elements.php:206
 msgid "Section"
 msgstr "Secção"
 
-#: includes/class-elements.php:208
+#: includes/class-elements.php:207
 msgid "Group and style content."
 msgstr "Agrupa e atribui estilo ao conteúdo."
 
-#: includes/class-elements.php:214
+#: includes/class-elements.php:213
 msgid "Card"
 msgstr "Cartão"
 
-#: includes/class-elements.php:215
+#: includes/class-elements.php:214
 msgid "Display content inside a card."
 msgstr "Mostra conteúdo num cartão."
 
-#: includes/class-elements.php:221
+#: includes/class-elements.php:220
 msgid "Hero"
 msgstr "Hero"
 
-#: includes/class-elements.php:222
+#: includes/class-elements.php:221
 msgid "Emphasize content in a hero pane."
 msgstr "Destaque de conteúdo numa área <em>hero</em>."
 
-#: includes/class-elements.php:228
+#: includes/class-elements.php:227
 msgid "Box"
 msgstr "Caixa"
 
-#: includes/class-elements.php:229
+#: includes/class-elements.php:228
 msgid "Display content inside a box."
 msgstr "Mostra conteúdo numa caixa."
 
-#: includes/class-elements.php:241
+#: includes/class-elements.php:240
 msgid "Posts"
 msgstr "Conteúdos"
 
-#: includes/class-elements.php:242
+#: includes/class-elements.php:241
 msgid "Your site's posts."
 msgstr "Os conteúdos do seu site."
 
-#: includes/class-elements.php:247
+#: includes/class-elements.php:246
 msgid "Gallery"
 msgstr "Galeria"
 
-#: includes/class-elements.php:248
+#: includes/class-elements.php:247
 msgid "A flexible image gallery."
 msgstr "Uma galeria de imagens flexível."
 
-#: includes/class-elements.php:253
+#: includes/class-elements.php:252
 msgid "Button"
 msgstr "Botão"
 
-#: includes/class-elements.php:254
+#: includes/class-elements.php:253
 msgid "A simple button."
 msgstr "Um botão simples."
 
-#: includes/class-elements.php:258 includes/elements/class-map-marker.php:82
+#: includes/class-elements.php:257 includes/elements/class-map-marker.php:82
 msgid "Content"
 msgstr "Conteúdo"
 
-#: includes/class-elements.php:259
+#: includes/class-elements.php:258
 msgid "HTML and multimedia content."
 msgstr "Conteúdo HTML e multimédia."
 
-#: includes/class-elements.php:263 includes/elements/class-user.php:49
+#: includes/class-elements.php:262 includes/elements/class-user.php:49
 msgid "User"
 msgstr "Utilizador"
 
-#: includes/class-elements.php:264
+#: includes/class-elements.php:263
 msgid "A user profile box."
 msgstr "Uma caixa de perfil de utilizador."
 
-#: includes/class-elements.php:269
+#: includes/class-elements.php:268
 msgid "A widget area from your site."
 msgstr "Uma área de widgets do seu site."
 
-#: includes/class-elements.php:280
+#: includes/class-elements.php:279
 #: includes/elements/class-contact-form-7.php:56
 msgid "Contact form"
 msgstr "Formulário de contacto"
 
-#: includes/class-elements.php:281
+#: includes/class-elements.php:280
 msgid "A contact form."
 msgstr "Um formulário de contacto."
 
-#: includes/class-elements.php:282
+#: includes/class-elements.php:281
 msgid "Contact Form 7"
 msgstr "Contact Form 7"
 
-#: includes/class-elements.php:288
+#: includes/class-elements.php:287
 msgid "Portfolio"
 msgstr "Portfólio"
 
-#: includes/class-elements.php:289
+#: includes/class-elements.php:288
 msgid "Your site's projects."
 msgstr "Os projectos do seu site."
 
-#: includes/class-elements.php:290 includes/class-elements.php:298
+#: includes/class-elements.php:289 includes/class-elements.php:297
 msgid "Jetpack"
 msgstr "Jetpack"
 
-#: includes/class-elements.php:296
+#: includes/class-elements.php:295
 msgid "Testimonals"
 msgstr "Testemunhos"
 
-#: includes/class-elements.php:297
+#: includes/class-elements.php:296
 msgid "Your site's testimonials."
 msgstr "Os testemunhos do seu site."
 
-#: includes/class-elements.php:565
-msgid "Valid models were not provided"
-msgstr "Não foram fornecidos elementos válidos"
-
-#: includes/class-elements.php:599
+#: includes/class-elements.php:563
 msgid "A valid model was not provided"
 msgstr "Não foi fornecido nenhum elemento válido"
 
@@ -2024,20 +2021,6 @@ msgstr "A área de widgets seleccionada não contém widgets."
 msgid "Add kit"
 msgstr "Adicionar kit"
 
-#: partials/admin/help-settings.php:13
-msgid ""
-"This page allows you to configure global settings for the Tailor plugin."
-msgstr ""
-"Esta página permite-lhe configurar as definições globais do plugin Tailor."
-
-#: partials/admin/help-settings.php:25
-msgid ""
-"1{Documentation} can be found on the Tailor website and you can ask "
-"questions on the 2{community forum} if you get stuck."
-msgstr ""
-"Pode encontrar 1{documentação} no site do Tailor e pode fazer perguntas no "
-"2{fórum da comunidade} se precisar de ajuda."
-
 #: partials/admin/html/notice-layout-deleted.php:17
 msgid "The Tailor layout was successfully deleted."
 msgstr "O layout do Tailor foi eliminado com sucesso."
@@ -2058,6 +2041,10 @@ msgstr ""
 msgid "Delete layout"
 msgstr "Eliminar layout"
 
+#: partials/admin/html/page-settings.php:19
+msgid "Tailor settings"
+msgstr "Definições do Tailor"
+
 #: partials/admin/html/page-settings.php:23
 #, php-format
 msgid "See what's new in %1$sversion %2$s%3$s"
@@ -2071,11 +2058,7 @@ msgstr "Recursos"
 msgid "Extending"
 msgstr "Expandir"
 
-#: partials/admin/html/page-settings.php:29
-msgid "Community"
-msgstr "Comunidade"
-
-#: partials/admin/html/page-settings.php:33
+#: partials/admin/html/page-settings.php:32
 #, php-format
 msgid "If you like Tailor, please consider %1$srating it!%2$s"
 msgstr "Se gostar do Tailor, por favor considere %1$sclassificá-lo!%2$s"
@@ -2149,8 +2132,8 @@ msgid "Enter %s preview mode"
 msgstr "Entrar em modo de pré-visualização %s"
 
 #: partials/sidebar/sidebar-frame.php:67
-msgid "Collapse Sidebar"
-msgstr "Minimizar barra lateral"
+msgid "Hide Controls"
+msgstr "Esconder controlos"
 
 #: partials/underscore/canvas-tools.php:15
 msgid "Copy"
@@ -2205,6 +2188,27 @@ msgstr "Andrew Worsfold"
 #. Author URI of the plugin/theme
 msgid "http://www.andrewworsfold.com"
 msgstr "http://www.andrewworsfold.com"
+
+#~ msgid "Valid models were not provided"
+#~ msgstr "Não foram fornecidos elementos válidos"
+
+#~ msgid ""
+#~ "This page allows you to configure global settings for the Tailor plugin."
+#~ msgstr ""
+#~ "Esta página permite-lhe configurar as definições globais do plugin Tailor."
+
+#~ msgid ""
+#~ "1{Documentation} can be found on the Tailor website and you can ask "
+#~ "questions on the 2{community forum} if you get stuck."
+#~ msgstr ""
+#~ "Pode encontrar 1{documentação} no site do Tailor e pode fazer perguntas "
+#~ "no 2{fórum da comunidade} se precisar de ajuda."
+
+#~ msgid "Community"
+#~ msgstr "Comunidade"
+
+#~ msgid "Collapse Sidebar"
+#~ msgstr "Minimizar barra lateral"
 
 #, fuzzy
 #~ msgid ""
