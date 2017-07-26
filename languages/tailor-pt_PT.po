@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tailor 1.7.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tailor\n"
-"POT-Creation-Date: 2017-03-16 12:10+0000\n"
-"PO-Revision-Date: 2017-04-04 16:58+0100\n"
+"POT-Creation-Date: 2017-07-26 11:16+0100\n"
+"PO-Revision-Date: 2017-07-26 11:17+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0\n"
+"X-Generator: Poedit 2.0.3\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: tailor.php\n"
@@ -1826,57 +1826,57 @@ msgstr "Nenhum item de %1$s para mostrar"
 msgid "Tailor this %s"
 msgstr "Editar %s com o Tailor"
 
-#: includes/helpers/helpers-markup.php:249
-msgid ""
-"This life, which had been the tomb of his virtue and of his honour, is but a "
-"walking shadow; a poor player, that struts and frets his hour upon the "
-"stage, and then is heard no more: it is a tale told by an idiot, full of "
-"sound and fury, signifying nothing."
-msgstr ""
-"This life, which had been the tomb of his virtue and of his honour, is but a "
-"walking shadow; a poor player, that struts and frets his hour upon the "
-"stage, and then is heard no more: it is a tale told by an idiot, full of "
-"sound and fury, signifying nothing."
-
-#: includes/helpers/helpers-markup.php:250
-msgid ""
-"All the world's a stage, and all the men and women merely players: they have "
-"their exits and their entrances; and one man in his time plays many parts, "
-"his acts being seven ages."
-msgstr ""
-"All the world's a stage, and all the men and women merely players: they have "
-"their exits and their entrances; and one man in his time plays many parts, "
-"his acts being seven ages."
-
 #: includes/helpers/helpers-markup.php:251
 msgid ""
-"There is a tide in the affairs of men, Which taken at the flood, leads on to "
-"fortune. Omitted, all the voyage of their life is bound in shallows and in "
-"miseries. On such a full sea are we now afloat. And we must take the current "
-"when it serves, or lose our ventures."
+"This life, which had been the tomb of his virtue and of his honour, is but a "
+"walking shadow; a poor player, that struts and frets his hour upon the "
+"stage, and then is heard no more: it is a tale told by an idiot, full of "
+"sound and fury, signifying nothing."
 msgstr ""
-"There is a tide in the affairs of men, Which taken at the flood, leads on to "
-"fortune. Omitted, all the voyage of their life is bound in shallows and in "
-"miseries. On such a full sea are we now afloat. And we must take the current "
-"when it serves, or lose our ventures."
+"This life, which had been the tomb of his virtue and of his honour, is but a "
+"walking shadow; a poor player, that struts and frets his hour upon the "
+"stage, and then is heard no more: it is a tale told by an idiot, full of "
+"sound and fury, signifying nothing."
 
 #: includes/helpers/helpers-markup.php:252
 msgid ""
-"Some are born great, some achieve greatness, and some have greatness thrust "
-"upon them."
+"All the world's a stage, and all the men and women merely players: they have "
+"their exits and their entrances; and one man in his time plays many parts, "
+"his acts being seven ages."
 msgstr ""
-"Some are born great, some achieve greatness, and some have greatness thrust "
-"upon them."
+"All the world's a stage, and all the men and women merely players: they have "
+"their exits and their entrances; and one man in his time plays many parts, "
+"his acts being seven ages."
 
 #: includes/helpers/helpers-markup.php:253
 msgid ""
+"There is a tide in the affairs of men, Which taken at the flood, leads on to "
+"fortune. Omitted, all the voyage of their life is bound in shallows and in "
+"miseries. On such a full sea are we now afloat. And we must take the current "
+"when it serves, or lose our ventures."
+msgstr ""
+"There is a tide in the affairs of men, Which taken at the flood, leads on to "
+"fortune. Omitted, all the voyage of their life is bound in shallows and in "
+"miseries. On such a full sea are we now afloat. And we must take the current "
+"when it serves, or lose our ventures."
+
+#: includes/helpers/helpers-markup.php:254
+msgid ""
+"Some are born great, some achieve greatness, and some have greatness thrust "
+"upon them."
+msgstr ""
+"Some are born great, some achieve greatness, and some have greatness thrust "
+"upon them."
+
+#: includes/helpers/helpers-markup.php:255
+msgid ""
 "Good night, good night! Parting is such sweet sorrow, that I shall say good "
 "night till it be morrow."
 msgstr ""
 "Good night, good night! Parting is such sweet sorrow, that I shall say good "
 "night till it be morrow."
 
-#: includes/helpers/helpers-markup.php:254
+#: includes/helpers/helpers-markup.php:256
 msgid ""
 "What a piece of work is a man, how noble in reason, how infinite in "
 "faculties, in form and moving how express and admirable, in action how like "
@@ -1886,7 +1886,7 @@ msgstr ""
 "faculties, in form and moving how express and admirable, in action how like "
 "an angel, in apprehension how like a god."
 
-#: includes/helpers/helpers-markup.php:255
+#: includes/helpers/helpers-markup.php:257
 msgid ""
 "Sweet are the uses of adversity which, like the toad, ugly and venomous, "
 "wears yet a precious jewel in his head."
@@ -2172,6 +2172,7 @@ msgstr ""
 "elementos e modelos na página."
 
 #. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
 msgid "http://www.gettailor.com"
 msgstr "http://www.gettailor.com"
 
@@ -2182,12 +2183,14 @@ msgstr ""
 "Crie layouts de página de modo fácil e rápido, usando o seu tema favorito."
 
 #. Author of the plugin/theme
-msgid "Andrew Worsfold"
-msgstr "Andrew Worsfold"
+msgid "The Tailor Team"
+msgstr "The Tailor Team"
 
-#. Author URI of the plugin/theme
-msgid "http://www.andrewworsfold.com"
-msgstr "http://www.andrewworsfold.com"
+#~ msgid "Andrew Worsfold"
+#~ msgstr "Andrew Worsfold"
+
+#~ msgid "http://www.andrewworsfold.com"
+#~ msgstr "http://www.andrewworsfold.com"
 
 #~ msgid "Valid models were not provided"
 #~ msgstr "Não foram fornecidos elementos válidos"
